@@ -1,11 +1,13 @@
 const capitalize = require("./capitalize");
+const reverseString = require("./reverseString");
+const calculator = require("./calculator");
 
 test("Capitalize first character of a string", () => {
   expect(capitalize("alfred")).toBe("Alfred");
 });
 
 test("Reverse a string", () => {
-  expect(capitalize("alfred")).toBe("derfla");
+  expect(reverseString("alfred")).toBe("derfla");
 });
 
 test("Add two numbers together", () => {
