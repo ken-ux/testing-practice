@@ -15,4 +15,4 @@ The `tests.test.js` file contains Jest tests that ensure each function returns w
 - Filtering out non-alphabet characters with regular expressions.
 - Creating tests to plan out the expectations and outcomes of specific code modules.
 - Practicing DRY principles through test-driven development.
-- Using .toEqual() for matching object values in tests rather than .toBe(), which does not recursively check every field of an object or array.
+- Using `toEqual()` for matching object values in Jest tests rather than `toBe()`, which does not recursively check every field of an object or array.
